@@ -1,0 +1,42 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "Python is a popular programming language used for AI, web development, and automation.",
+      "summary": "Python is a versatile language used for AI, web development, and automation."
+    },
+    {
+      "augmented": true,
+      "text": "LangChain provides tools and abstractions that simplify the development of LLM-powered applications.",
+      "summary": "LangChain simplifies the development of LLM-powered applications with its tools and abstractions."
+    },
+    {
+      "augmented": true,
+      "text": "Ollama enables developers to run and manage large language models locally on their machines.",
+      "summary": "Ollama allows developers to run large language models locally on their machines."
+    }
+  ],
+  "signature": {
+    "instructions": "Summarize text in one concise sentence.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Summary:",
+        "description": "${summary}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.4.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
