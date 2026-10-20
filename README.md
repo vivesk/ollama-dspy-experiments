@@ -9,3 +9,5 @@
 uv sync
 
 uv run DSPY/dspy_bootstrap_benchmark.py
+
+![alt text](image-1.png)
